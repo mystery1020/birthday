@@ -1,0 +1,42 @@
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image-box {
+    text-align: center;
+    margin: 10px;
+    max-width: 30%;
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.caption {
+    font-size: 16px;
+    color: #333;
+    margin-top: 8px;
+}
+/* Optional: Make images stack on smaller screens */
+@media (max-width: 768px) {
+    .image-box {
+        max-width: 90%;
+    }
+}
+
+.button {
+    background-color:#be90c3 ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #9f5ea5;
+}
